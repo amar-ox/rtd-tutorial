@@ -1,22 +1,30 @@
-Welcome to Lumache's documentation!
-===================================
+Multiverse Quantum Network Simulator
+====================================
 
-Hello ! **Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**Multiverse** is a flexible and extensible simulator for evaluating **entanglement routing in quantum networks**.  
+It is designed as an **architecture-agnostic, modular platform** that allows researchers and developers to:
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+- Prototype and evaluate entanglement distribution strategies
+- Compare proactive, reactive, and hybrid routing paradigms
+- Explore purification schemes, swapping strategies, and memory management
+- Model heterogeneous quantum hardware and link architectures
+- Investigate performance trade-offs under dynamic conditions
+
+Unlike prior simulators, Multiverse avoids assuming a single protocol stack or rigid architecture.  
+It provides conceptual building blocks—qubit lifecycle, memory management, time scheduling, and link architectures—so you can **define, test, and refine network functions** in an open-ended environment:contentReference[oaicite:0]{index=0}.
 
 .. note::
 
    This project is under active development.
 
+---
+
 Contents
 --------
 
 .. toctree::
+   :maxdepth: 2
 
-   usage
-   api
+   intro
+   reference/modules
+

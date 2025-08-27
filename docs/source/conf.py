@@ -2,13 +2,13 @@
 
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../../'))
+sys.path.insert(0, os.path.abspath('../../qns/'))
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'MQNS'
+copyright = '2025, Amar Abane'
+author = 'Amar Abane'
 
 release = '0.1'
 version = '0.1.0'
