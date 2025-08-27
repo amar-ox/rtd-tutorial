@@ -21,7 +21,6 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'sphinx.ext.autodoc',        # <- core tool for pulling in docstrings
     'sphinx.ext.napoleon',       # <- if you're using Google or NumPy-style docstrings
     'sphinx.ext.viewcode',       # <- optional: adds links to source code
 ]
